@@ -1,0 +1,66 @@
+/* Estilos Globais */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-image: url('fundo_caixa1.jpg'); /* Adicione a imagem de fundo */
+    background-size: cover; /* A imagem de fundo cobrirá toda a área do corpo */
+    background-repeat: no-repeat; /* Evita que a imagem de fundo seja repetida */
+    background-attachment: fixed; /* Mantém a imagem de fundo fixa mesmo ao rolar a página */
+}
+
+header {
+    background-color: #007BFF; /* Azul */
+    color: #fff; /* Branco */
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #007BFF; /* Azul */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Estilos para os cursos */
+.curso {
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco com transparência */
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.curso h2 {
+    color: #007BFF; /* Azul */
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.descricao-curso {
+    font-size: 16px;
+}
+
+/* Estilos para links */
+a {
+    color: #007BFF; /* Azul */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    /* Estilos para telas menores, como celulares */
+    body {
+        background-size: contain; /* A imagem de fundo se ajustará ao tamanho da tela */
+    }
+    .curso {
+        background-color: rgba(255, 255, 255, 0.9); /* Aumentando a opacidade para texto legível em telas menores */
+    }
+}
