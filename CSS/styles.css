@@ -4,7 +4,7 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
-    background-image: url('CSS/fundo_caixa1.jpg'); /* Adicione a imagem de fundo */
+    background-image: url('fundo_caixa1.jpg'); /* Adicione a imagem de fundo */
     background-size: cover; /* A imagem de fundo cobrirá toda a área do corpo */
     background-repeat: no-repeat; /* Evita que a imagem de fundo seja repetida */
     background-attachment: fixed; /* Mantém a imagem de fundo fixa mesmo ao rolar a página */
