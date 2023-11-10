@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #4CAF50; /* Verde para o fundo */
-    background-image: url('fundo_caixa1.jpg'); /* Adicione a imagem de fundo */
+    /* background-image: url('fundo_caixa1.jpg'); Adicione a imagem de fundo */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
